@@ -58,18 +58,61 @@ body {
           background-color: #fc7613;
           color: black; }
     body .container .button {
+      border-color: #fc7613;
       border-radius: 40px;
       height: 45px;
+      width: 100%;
+      cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: #fc7613;
       color: white;
       font-size: 20px;
-      cursor: pointer;
       font-family: 'Overpass', sans-serif;
       font-weight: 400;
       box-shadow: 0px 0px 5px #948f8f; }
       body .container .button:active {
         background-color: rgba(197, 91, 15, 0.76);
         box-shadow: none; }
+      body .container .button a {
+        border-radius: 40px;
+        height: 45px;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0; }
+
+.resultado-text {
+  background-color: #262b33;
+  border-radius: 50px;
+  width: 200px;
+  height: 35px;
+  color: #fc7613;
+  font-size: 30px;
+  margin: auto; }
+
+.title-result {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 23px; }
+
+.result-text {
+  color: white;
+  width: 100%;
+  text-align: center;
+  color: #808895;
+  font-size: 17px;
+  font-family: 'Overpass', sans-serif; }

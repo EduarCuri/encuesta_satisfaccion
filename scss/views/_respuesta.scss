@@ -1,0 +1,36 @@
+.image-container {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.resultado-text {
+    // border: 1px solid blue;
+    background-color: rgb(38,43,51);
+    border-radius: 50px;
+    width: 200px;
+    height: 35px;
+    color: rgb(252,118,19);
+    font-size: 30px;
+    margin: auto;
+}
+.title-result {
+    // border: 1px solid greenyellow;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+.result-text {
+    // border: 1px solid red;
+    color: white;
+    width: 100%;
+    text-align: center;
+    color: rgb(128,136,149);
+    font-size: 17px;
+    font-family: 'Overpass', sans-serif;
+}
